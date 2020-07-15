@@ -27,6 +27,36 @@
 .App-link {
   color: #61dafb;
 }
+.ribbon {
+  position: absolute;
+  right: 15px;
+  overflow: hidden;
+  width: 20px;
+  height: 30px;
+}
+
+.ribbon span {
+  font-size: 13px;
+  line-height: 20px;
+  
+  width: 100px;
+  display: block;
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px;
+  left: -21px;
+}
+
+
+	
+.App{
+  background: url('https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:  2000px;
+  -o-background-size: cover;
+}
+
 
 @keyframes App-logo-spin {
   from {
